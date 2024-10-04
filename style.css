@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: palevioletred;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 3rem;
+}
+
+a{
+    text-decoration: none;
+    color: palevioletred;
+}
+
+.logo{
+    align-content: center;
+    font-size: xx-large;
+}
+
+.first_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.pic{
+    display: flex;
+    justify-content: center;
+}
+
+.img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 50%;
+}
+
+.intro{
+    justify-content: center;
+}
