@@ -34,12 +34,6 @@ a{
         align-items: center;
     }
 
-    .main {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
     .card_container{
         
         display: flex;
@@ -92,7 +86,6 @@ a{
         padding-top: 5px;
         padding-bottom: 5px;
         display: flex;
-        flex-direction: column;
         justify-content: center;
         text-align: center;
         
@@ -151,6 +144,7 @@ a{
     .card_container{
         display: flex;
         justify-content: center;
+        flex-direction: column;
     }
 
     .card{
@@ -166,4 +160,8 @@ a{
         box-shadow: 5px 5px 5px silver;
     }
 
+    .main{
+        flex-direction: column;
+        justify-content: center;
+    }
 }
